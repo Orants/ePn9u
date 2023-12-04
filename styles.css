@@ -47,12 +47,14 @@
         p {
             line-height: 1.6;
             margin-bottom: 1em;
+		color: #593c5d;
         }
 
 		.p_contact {
 			line-height: 1.6;
             margin-bottom: 1em;
 			text-align: center;
+			color: #593c5d;
 		}
 
 
@@ -210,3 +212,41 @@
             padding: 20px;
             text-align: center;
         }
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 100%;
+		margin-bottom: 100px; 
+	}
+
+	td, th {
+		border: 1px solid #dddddd;
+		text-align: left;
+		padding: 20px;
+		color: #593c5d ;
+	}
+	
+	tr:nth-child(even) {
+		background-color: #E9F1F7;
+		margin-bottom: 50px; 
+	}
+	
+	.section1 {
+		max-width: 400px;
+        margin: 2em auto;
+        padding: 1em;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        color: #333;
+		margin-bottom: 50px; 
+		background-size: cover;
+		background-position: center;
+		
+	}
+	
+	.p_teenused {
+		line-height: 1.6;
+            margin-bottom: 1em;
+			text-align: left;
+			color: #593c5d;
+	}
