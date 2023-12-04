@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #C088D7;
+			background-image: url('veebileht_background_1');
+            color: #fff;
+            text-align: center;
+            padding: 6em;
+			margin-bottom: 80px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            color: #333;
+			margin-bottom: 50px; 
+			background-size: cover;
+			background-position: center;
+
+        }
+
+        h1 {
+            color: #fff;
+            margin-bottom: 1.5em;
+        }
+
+        h2 {
+            color: #C088D7;
+			text-align: center;
+        }
+		
+		h4 {
+            color: #C088D7;
+			text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 1em;
+        }
+		
+		.p_contact {
+			line-height: 1.6;
+            margin-bottom: 1em;
+			text-align: center;
+		}
+		
+		
+
+        .button {
+            display: inline-block;
+            padding: 15px 50px;
+            background-color: #CFB3DB;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.5s ease;
+			text-align: center; /* Horisontaalne keskjoondus */
+			line-height: 1.5;
+        }
+
+        .button:hover {
+            background-color: #C088D7;
+        }
+
+        footer {
+            background-color: #CFB3DB;
+            color: white;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+			margin-top: 20px;
+        }
+
+        .container {
+            text-align: center;
+			margin-top: 30px;
+			
+        }
+		
+		.row1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+		
+		.left {
+			box-sizing: border-box;
+			width: calc(50% - 20px);
+			float: left;
+			margin-bottom: 30px;
+			background-color: #E9F1F7 ; 
+			padding: 10px; 
+			text-align: center;
+		}
+		
+		.right {
+			box-sizing: border-box;
+			width: calc(50% - 20px);
+			margin-bottom: 30px;
+			background-color: #E9F1F7 ;
+			padding: 10px; 
+			text-align: center;
+			float: right;
+		}
+        .row2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .column {
+			display: flex;
+            width: 600px;
+			background-color: #E9F1F7;
+            margin: 1em;
+        }
+
+        form {
+            background-color: #fff;
+			margin-left: auto;
+			margin-right: auto;
+            padding: 2em;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			margin-bottom: 3em;
+			margin-top: 3em;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+            color: #555;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 0.5em;
+			margin: auto;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+			font-family: 'Arial', sans-serif;
+			
+
+        }
+		textarea {
+			height: 200px; 
+			width: calc(100% - 1em); 
+			margin-right: 1em; 
+}
+		
+		.nupp {
+            display: inline-block;
+            padding: 15px 40px;
+            background-color: #CFB3DB;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.5s ease;
+        }
+
+        .nupp:hover {
+            background-color: #C088D7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pereteraapia</h1>
+        <p>Leia tasakaal ja harmoonia pereelu kaudu</p>
+    </header>
+
+    <section>
+        <h2>Tere tulemast pereteraapia kodulehele!</h2> 
+        <p>Pereteraapia aitab teil luua tugevamaid suhteid ja lahendada pereprobleeme läbi avatud suhtlemise ja toetava keskkonna.</p>
+        <p>Oleme pühendunud teie pere heaolu parandamisele!</p>
+		
+		<br>
+		<h2>Kus asume</h2>
+		<div class="p_contact">
+		<p>veel juttu ja kontakt...</p>
+		</div>
+		<div class="row">
+			<div class="left">
+				<h4>Asukoht 1</h4>
+				<p>...</p>
+			</div>
+			<div class="right">
+				<h4>Asukoht 2</h4>
+				<p>...</p>
+			</div>
+		</div>
+		
+        <a href="nupp" class="button">Tutvu hinnakirjaga </a>
+    </section>
+	
+    <section>
+        <div class="container">
+            <h2>Võta meiega ühendust!</h2>
+			<br>
+            <p>Oleme siin, et teid aidata! Kirjuta julgelt ja koos leiame lahenduse!</p>
+        </div>
+        <div class="row2">
+            <div class="column"></div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Eesnimi</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Teie eesnimi" style="width: 400px" >
+					<br>
+
+                    <label for="lname">Perekonnanimi</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Teie perekonnanimi" style="width: 400px">
+					<br>
+					
+					<label for="lname">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Teie e-mail" style="width: 400px">
+					<br>
+
+                    <label for="subject">Kirjeldus</label>
+                    <textarea id="subject" name="subject" placeholder="Lisainfo" style="height:170px" ></textarea>
+					<br>
+
+                    <a href="#contact" class="nupp">Saada</a>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pereteraapia</p>
+    </footer>
+</body>
+</html>
